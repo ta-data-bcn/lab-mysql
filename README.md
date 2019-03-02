@@ -8,7 +8,7 @@ As a data expert you work at a car dealership company which sells new cars of va
 
 ## Challenge 1 - Design the Database
 
-Using pen and paper (or computer software if you are skillful at creating digital diagrams), design a database to meet the minimal requirements of your boss. The minimal information to be recorded is described below:
+Using pen and paper, design a database to meet the minimal requirements of your boss. The minimal information to be recorded is described below:
 
 1. **Cars** - e.g. the vehicle identification number (VIN), manufacturer, model, year, and color of the cars in your company's inventory.
 
@@ -27,13 +27,7 @@ Before solving this challenge, review your lesson about database structure and d
 
 * **What are the relations between these entities? Which relations are one-to-one vs one-to-many vs many-to-many?**
 
-* **How can you use foreign keys to normalize your database design?**
-
-Your end product of this challenge should look something like below, though it doesn't have to be that complicated:
-
-![ERD](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/data-static/images/erd.png)
-
-If you use pen and paper to create the design, take a picture with your phone and send the image to yourself. If you use software to create the database diagram, export in the image format (JPG or PNG). Either way, the image will be submitted as one of the deliverables.
+Use pen and paper to create the design, take a picture with your phone and send the image to yourself. If you use software to create the database diagram, export in the image format (JPG or PNG). Either way, the image will be submitted as one of the deliverables.
 
 ## Challenge 2 - Create the Database and Tables
 
