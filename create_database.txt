@@ -1,0 +1,20 @@
+mysql> CREATE DATABASE lab_mysql;
+Query OK, 1 row affected (0.07 sec)
+
+mysql> use lab_mysql;
+Database changed
+
+mysql> CREATE TABLE Cars (VIN_ID VARCHAR(20), MANUFACTURER VARCHAR(25), MODEL VARCHAR(25), YEAR INT(4), COLOUR VARCHAR(15));
+Query OK, 0 rows affected (0.12 sec)
+
+mysql> CREATE TABLE Customer (C_ID INT(10), NAME VARCHAR(25), PHONE_NUM VARCHAR(15), EMAIL VARCHAR(30), ADRESS VARCHAR(50), CITY VARCHAR (25), STATE VARCHAR(25)
+, COUNTRY VARCHAR(25), ZIP INT(8));
+Query OK, 0 rows affected (0.07 sec)
+
+mysql> CREATE TABLE Sales_pers (ST_ID VARCHAR(20), NAME VARCHAR (25), STORE VARCHAR(25));
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> CREATE TABLE Invoices (IN_ID VARCHAR(20), DATE date, CAR_VIN VARCHAR(20), C_ID INT(10), ST_ID VARCHAR(20));
+Query OK, 0 rows affected (0.06 sec)
+
+mysql>
