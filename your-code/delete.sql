@@ -1,2 +1,2 @@
 DELETE FROM lab_mysql.Cars
-WHERE Model="V60 Cross Country";
+WHERE ID=1;
