@@ -12,13 +12,35 @@ Using pen and paper, design a database to meet the minimal requirements of your 
 
 1. **Cars** - e.g. the vehicle identification number (VIN), manufacturer, model, year, and color of the cars in your company's inventory.
 
-1. **Customers** - e.g. the customer ID, name, phone number, email, address, city, state/province, country, and zip/postal code of the customers.
+the vehicle identification number (VIN) - varchar(20)
+manufacturer - varchar(25)
+model - varchar (25)
+year - int (4)
+color - varchar (15)
 
-1. **Salespersons** - e.g. staff ID, name, and the store at your company.
+1. **Customers** - e.g. ç
+the customer ID - varchar (25)
+name - varchar (25)
+phone number - varchar (25)
+email - varchar (25)
+address - varchar (50)
+city - varchar (25)
+state/province - varchar (25)
+country - varchar (25)
+zip/postal code - int (8)
 
-1. **Invoices** - e.g. the invoice number, date, car, customer, and salesperson related to each car sale.
+1. **Salespersons** - e.g.
+staff ID - varchar (25)
+name - varchar (25)
+store - varchar (25)
 
-Before solving this challenge, review your lesson about database structure and design then ask yourself:
+1. **Invoices** - e.g. 
+invoice number (ID)- int ()
+date - date()
+car - VIN - int ()
+customer - customer ID - int ()
+salesperson related to each car sale - staff ID - int ()
+
 
 * **What entities and attributes should be included in the database?**
 	* For each attribute, what data type is most suitable?
@@ -26,6 +48,14 @@ Before solving this challenge, review your lesson about database structure and d
 	* Also note that some attributes are required while other ones can be blank.
 
 * **What are the relations between these entities? Which relations are one-to-one vs one-to-many vs many-to-many?**
+
+Relationships:
+car to invoice: many to one
+salesperson to invoice: one to many
+customer to invoice: many to one 
+(one customer can buy many cars i.e. many invoices)
+
+
 
 Use pen and paper to create the design, take a picture with your phone and send the image to yourself. If you use software to create the database diagram, export in the image format (JPG or PNG). Either way, the image will be submitted as one of the deliverables.
 
@@ -42,6 +72,7 @@ Use pen and paper to create the design, take a picture with your phone and send 
 	```
 
 	*Note: If you have set a password for the database user, you need to supply `-p` in the MySQL connection command. Once you hit enter, MySQL will ask you to type the password. If you didn't set the password for the database user, you don't need to supply `-p` in the connection command.*
+
 
 1. **Now, based on the database design you created, write the SQL query to create the tables and columns.** You will be using the `CREATE TABLE` statement for which you can find reference [here](https://dev.mysql.com/doc/refman/8.0/en/creating-tables.html).
 
