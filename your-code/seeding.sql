@@ -12,10 +12,10 @@ values
 
 
 insert into customers
-(id, customer_id, name, phone_number, address, city, state, country, zip)
+(id, customer_id, name, phone_number, mail, address, city, state, country, zip)
 values
-(0, 10001,'Pablo Picasso', '+34 636 17 63 82','Paseo de la Chopera, 14','Madrid', 'Madrid', 'Spain', 28045),
-(1, 2002, 'Abraham Lincoln', '+1 305 907 7086','120 SW 8th St', 'Miami', 'Florida', 'Unites States', 33130)
+(0, 10001,'Pablo Picasso', '+34 636 17 63 82','-', 'Paseo de la Chopera, 14','Madrid', 'Madrid', 'Spain', 28045),
+(1, 2002, 'Abraham Lincoln', '+1 305 907 7086','-','120 SW 8th St', 'Miami', 'Florida', 'Unites States', 33130)
 ;
 
 insert into invoices
@@ -30,6 +30,6 @@ insert into salespersons
 (id, staff_id, name, store)
 values
 (0, 0001,'Petey Cruiser','Madrid'),
-(1, 0002,'Anna Sthesia', 'M'),
+(1, 0002,'Anna Sthesia', 'Barcelona'),
 (4, 00003, 'Paige Turner', 'Mimia')
 ;

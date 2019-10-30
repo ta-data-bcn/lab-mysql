@@ -1,6 +1,10 @@
 create database lab_mysql;
 
--- DROP TABLE cars;
+DROP TABLE cars;
+DROP TABLE salespersons;
+
+DROP TABLE invoices;
+DROP TABLE customers;
 
 create table salespersons
 (id int,
