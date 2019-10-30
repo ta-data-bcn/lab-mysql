@@ -36,9 +36,10 @@ Values (00001,	'Petey Cruiser',	'Madrid'),
 ;
 
 -- Table 4: INVOICES
+-- runned --
 
 INSERT INTO INVOICES (InvoiceNum, Date, Car, Customer, Sales_person)
-Values ('852399038', 2018-08-22,	0,	1,	3),
-		('731166526', 2018-12-31,	3,	0,	5),
-		('271135104', 2019-01-22,	2,	2,	7)
+Values ('852399038', '2018-08-22',	7,	2,	3),
+		('731166526', '2018-12-31',	11,	1,	5),
+		('271135104', '2019-01-22',	9,	3,	7)
 ;
