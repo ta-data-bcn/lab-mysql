@@ -267,7 +267,7 @@ INSERT INTO `Sales_Person` (`staff_ID`, `name`, `store`) VALUES (6,	"Bob Frapple
 INSERT INTO `Sales_Person` (`staff_ID`, `name`, `store`) VALUES (7,	"Walter Melon", "Amsterdam");
 INSERT INTO `Sales_Person` (`staff_ID`, `name`, `store`) VALUES (8,	"Shonda Leer", "São Paulo");
 
-
-
-
-
+#Seeding Invoices
+INSERT INTO `Invoice` (`invoice_number`, `invoice_date`, `car_ID`, `customer_ID`, `sales_person_ID`) VALUES ("852399038", 20180822,1, 2, 14);
+INSERT INTO `Invoice` (`invoice_number`, `invoice_date`, `car_ID`, `customer_ID`, `sales_person_ID`) VALUES ("731166526", 20181231,4, 1, 15);
+INSERT INTO `Invoice` (`invoice_number`, `invoice_date`, `car_ID`, `customer_ID`, `sales_person_ID`) VALUES ("271135104", 20190122,3, 3, 18);

@@ -40,7 +40,7 @@ CREATE TABLE `Customer` (
 CREATE TABLE `Invoice` (
   `ID` int(10) NOT NULL AUTO_INCREMENT,
   `invoice_number` varchar(255)   DEFAULT NULL,
-  `invoice_date` datetime DEFAULT NULL,
+  `invoice_date` date DEFAULT NULL,
   `car_ID` int(10) NOT NULL,
   `customer_ID` int(10) NOT NULL,
   `sales_person_ID` int(10) NOT NULL,
