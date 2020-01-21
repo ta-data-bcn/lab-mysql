@@ -7,7 +7,7 @@ DROP TABLE IF EXISTS Car;
 
 CREATE TABLE Car (
     car_ID INT(4) AUTO_INCREMENT,
-    VIN VARCHAR(18) NOT NULL,
+    VIN VARCHAR(18) UNIQUE,
     manufactureR VARCHAR(128),
     model VARCHAR(32),
     year INT(4) DEFAULT 1989,
@@ -18,7 +18,8 @@ CREATE TABLE Car (
 CREATE TABLE Customer (
     customer_ID INT(6) AUTO_INCREMENT,
     name VARCHAR(64) NOT NULL,
-    phone VARCHAR(16),
+    phone VARCHAR(20),
+    email VARCHAR(64),
     address VARCHAR(128),
     city VARCHAR(64),
     zip_code VARCHAR(8),
