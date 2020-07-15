@@ -1,0 +1,3 @@
+use car_dealership;
+CREATE TABLE cars (VIN VARCHAR(20), Manufacturer VARCHAR(20),
+       Model VARCHAR(20), color VARCHAR(20), year DATE);
