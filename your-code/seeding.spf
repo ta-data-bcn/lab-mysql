@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>database</key>
+			<string>lab_mysql</string>
+			<key>host</key>
+			<string>127.0.0.1</string>
+			<key>kcid</key>
+			<string>-6665033987035693676</string>
+			<key>name</key>
+			<string>localhost</string>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPTCPIPConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>root</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>utf8</string>
+			<key>contentFilterV2</key>
+			<dict>
+				<key>children</key>
+				<array/>
+				<key>filterClass</key>
+				<string>groupNode</string>
+				<key>isConjunction</key>
+				<true/>
+			</dict>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0
+			b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRk
+			YXRhgAGoCwwXGBkaHiVVJG51bGzTDQ4PEBMWV05TLmtleXNaTlMu
+			b2JqZWN0c1YkY2xhc3OiERKAAoADohQVgASABYAHVHR5cGVUcm93
+			c18QHVNlbGVjdGlvbkRldGFpbFR5cGVOU0luZGV4U2V00hsPHB1c
+			TlNSYW5nZUNvdW50EACABtIfICEiWiRjbGFzc25hbWVYJGNsYXNz
+			ZXNaTlNJbmRleFNldKIjJFpOU0luZGV4U2V0WE5TT2JqZWN00h8g
+			JidcTlNEaWN0aW9uYXJ5oiYkAAgAEQAaACQAKQAyADcASQBMAFEA
+			UwBcAGIAaQBxAHwAgwCGAIgAigCNAI8AkQCTAJgAnQC9AMIAzwDR
+			ANMA2ADjAOwA9wD6AQUBDgETASAAAAAAAAACAQAAAAAAAAAoAAAA
+			AAAAAAAAAAAAAAABIw==
+			</data>
+			<key>contentSortColIsAsc</key>
+			<true/>
+			<key>contentViewport</key>
+			<string>{{0, 0}, {695, 481}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>queries</key>
+			<string>USE `lab_mysql`;
+INSERT INTO `cars` VALUES (0,'Volkswagen','Tiguan',2019,'Blue');
+INSERT INTO `cars` VALUES (1,'Peugeot','Rifter',2019,'Red');
+INSERT INTO `cars` VALUES (2,'Ford','Fusion',2018,'White');
+INSERT INTO `cars` VALUES (3,'Toyota','RAV4',2018,'Silver');
+INSERT INTO `cars` VALUES (4,'Volvo','V60',2019,'Gray');
+INSERT INTO `cars` VALUES (5,'Volvo','V60 CC',2019,'Gray');
+
+INSERT INTO `customers` VALUES (0, 'Pablo Picasso', 636176382,NULL,'Paseo de la Chopera, 14','Madrid', 28045);
+INSERT INTO `customers` VALUES (1, 'Abraham Lincoln', 656789768,NULL,'Calle de Ibiza, 5pm','Madrid', 28009);
+INSERT INTO `customers` VALUES (2, 'Javier Pradera', 617520678,NULL,'Gamla Stan, 56','Stockholm', 445088);
+
+INSERT INTO `salespersons` VALUES (0, 'Petey Cruiser','Madrid');
+INSERT INTO `salespersons` VALUES (1, 'Ricardo Lopez','Berlin');
+INSERT INTO `salespersons` VALUES (2, 'Xavier Font','Barcelona');
+INSERT INTO `salespersons` VALUES (3, 'Bob Frapples','Mimia');
+INSERT INTO `salespersons` VALUES (4, 'Tomas Carvalho','São Paulo');
+
+
+INSERT INTO `invoices` VALUES (0, '2018-08-22',1,3,0);
+INSERT INTO `invoices` VALUES (1, '2018-12-31',0,5,3);
+INSERT INTO invoices VALUES(2,'2019-01-22',2,7,2);</string>
+			<key>view</key>
+			<string>SP_VIEW_CUSTOMQUERY</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>214</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>INSERT INTO invoices VALUES(2,'2019-01-22',2,7,2)</string>
+		<string>SELECT * FROM invoices</string>
+		<string>INSERT INTO `invoices` VALUES (1, '2018-12-31',0,5,3)</string>
+		<string>INSERT INTO `invoices` VALUES (0, '2018-08-22',1,3,0)</string>
+		<string>INSERT INTO `invoices` VALUES (0, 22-08-2018,1,3,0)</string>
+		<string>INSERT INTO `invoices` VALUES (0, '22-08-2018',1,3,0)</string>
+		<string>SELECT * FROM `invoices`</string>
+		<string>ALTER TABLE invoices
+ADD car_ID INT</string>
+		<string>INSERT INTO `invoices` VALUES (0, '22-08-2018',0,1,3)</string>
+		<string>INSERT INTO `salespersons` VALUES (4, 'Tomas Carvalho','São Paulo')</string>
+		<string>INSERT INTO `salespersons` VALUES (3, 'Bob Frapples','Mimia')</string>
+		<string>INSERT INTO `salespersons` VALUES (1, 'Bob Frapples','Mimia')</string>
+		<string>INSERT INTO `salespersons` VALUES (2, 'Xavier Font','Barcelona')</string>
+		<string>INSERT INTO `salespersons` VALUES (2, 'Xavier Bonaparte','Barcelona')</string>
+		<string>INSERT INTO `salespersons` VALUES (1, 'Ricardo Lopez','Berlin')</string>
+		<string>INSERT INTO `salespersons` VALUES (0, 'Petey Cruiser','Madrid')</string>
+		<string>SELECT * FROM `salespersons`</string>
+		<string>SELECT * FROM customers</string>
+		<string>INSERT INTO `customers` VALUES (2, 'Javier Pradera', 617520678,NULL,'Gamla Stan, 56','Stockholm', 445088)</string>
+		<string>INSERT INTO `customers` VALUES (1, 'Javier Pradera', 617520678,NULL,'Gamla Stan, 56','Stockholm', 445088)</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>8.0.19</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
