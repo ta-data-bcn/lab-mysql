@@ -1,0 +1,6 @@
+USE lab_mysql;
+
+SELECT * FROM cars;
+
+DELETE FROM cars
+WHERE vin = "DAM41UDN3CHU2WVF6";
