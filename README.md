@@ -10,13 +10,13 @@ As a data expert you work at a car dealership company which sells new cars of va
 
 Using pen and paper, design a database to meet the minimal requirements of your boss. The minimal information to be recorded is described below:
 
-1. **Cars** - e.g. the vehicle identification number (VIN), manufacturer, model, year, and color of the cars in your company's inventory.
+1. **Cars** - e.g. the vehicle identification number (VIN) - SMALLINT, manufacturer - CHAR (50), model CHAR (50), year - YEAR, and color of the cars in your company's inventory CHAR (30).
 
-1. **Customers** - e.g. the customer ID, name, phone number, email, address, city, state/province, country, and zip/postal code of the customers.
+1. **Customers** - e.g. the customer ID - SMALLINT, name CHAR (50), phone number - SMALLINT, email CHAR (50), address - CHAR (100), city - CHAR (30), state/province - CHAR (50), country - CHAR (50), and zip/postal code of the customers - SMALLINT.
 
-1. **Salespersons** - e.g. staff ID, name, and the store at your company.
+1. **Salespersons** - e.g. staff ID - SMALLINT, name - CHAR (50), and the store at your company - CHAR (50).
 
-1. **Invoices** - e.g. the invoice number, date, car, customer, and salesperson related to each car sale.
+1. **Invoices** - e.g. the invoice number - SMALLINT, date - DATE, car - CHAR (50), customer - CHAR (50), and salesperson related to each car sale - CHAR (50).
 
 Before solving this challenge, review your lesson about database structure and design then ask yourself:
 
@@ -34,12 +34,18 @@ Use pen and paper to create the design, take a picture with your phone and send 
 1. **Create a MySQL database for this lab.** You can do so in the command line like this:
 
 	```bash
-	$ mysql -u your_username -p
+	$ mysql -u your_username
 	mysql> CREATE DATABASE lab_mysql;
 	Query OK, 1 row affected (0.02 sec)
 	mysql> USE lab_mysql;
 	Database changed
 	```
+$ mysql -u dgruhne
+	mysql> CREATE DATABASE lab_mysql;
+	Query OK, 1 row affected (0.02 sec)
+	mysql> USE lab_mysql;
+	Database changed
+
 
 	*Note: If you have set a password for the database user, you need to supply `-p` in the MySQL connection command. Once you hit enter, MySQL will ask you to type the password. If you didn't set the password for the database user, you don't need to supply `-p` in the connection command.*
 
